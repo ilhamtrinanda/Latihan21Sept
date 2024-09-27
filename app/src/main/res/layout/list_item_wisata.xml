@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="180dp"
+        android:layout_height="170dp"
+        android:layout_alignEnd="@+id/nama"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_marginStart="-189dp"
+        android:layout_marginEnd="-211dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sensoji2" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:text="nama"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tempat"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="bottom|center"
+        android:text="tempat"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="bottom"
+        android:text="tempat"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>
